@@ -3,9 +3,10 @@ import globe from '../images/globe.png'
 export default function Header(){
     return (
         <>
-        <Header>
+        <header>
             <img src={globe} alt='globe-image'/>
-        </Header>
+            <h1>Travel Journal</h1>
+        </header>
         </>
     )
 }
