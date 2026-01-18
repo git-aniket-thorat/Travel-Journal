@@ -9,7 +9,8 @@ function App() {
     return(
       <Entry 
         key={item.id}
-        entry= {item} />
+        entry= {item} 
+        />
     )
   })
 
