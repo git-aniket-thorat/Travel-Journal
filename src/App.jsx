@@ -9,12 +9,7 @@ function App() {
     return(
       <Entry 
         key={item.id}
-        img={item.img}
-        country={item.country}
-        mapsLink={item.googleMapsLink} 
-        title={item.title}
-        dates={item.dates}
-        text={item.text} />
+        entry= {item} />
     )
   })
 
